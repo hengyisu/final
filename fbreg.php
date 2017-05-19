@@ -56,7 +56,20 @@
 							echo "<input id='uname' type='text' class='validate' name='uname' value='$name' required='' onkeyup='setn()'>";
 						?>
 						</div>
-
+						<div>
+						<label for="phone">電話</label>
+						<?php 
+							$phone = $_SESSION["U_PHONE"];
+							echo "<input id='uphone' type='text' class='validate' name='uphone' value='$phone' required='' onkeyup='setn()'>";
+						?>
+						</div>
+						<div>
+						<label for="email">Email</label>
+						<?php 
+							$email = $_SESSION["U_EMAIL"];
+							echo "<input id='uemail' type='text' class='validate' name='uemail' value='$email' required='' onkeyup='setn()'>";
+						?>
+						</div>
 						<div class="center-align">
 							<button class="btn waves-light" type="submit">送出</button>
 						</div>
