@@ -23,7 +23,6 @@
 				</a><br/>
 				<a class="btn-large blue" href="manual.html">使用前請詳閱說明書</a>	
 			</div>
-		</div>
-	</div>
+</div>
 </body>
 </html>
